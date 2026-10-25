@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0C0C10">
+<meta name="description" content="Garaje: lleva el control de tu auto. Combustible, servicios, gastos y avisos, todo en orden.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Garaje · Tu auto, en orden</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="marca/icono-app.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="marca/png/icono-app-180.png">
+<link rel="preload" href="marca/fonts/bricolage-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="marca/tokens.css">
+<link rel="stylesheet" href="css/garaje.css">
+</head>
+<body>
+<div class="app">
+  <header class="top" id="top"></header>
+  <main id="view" tabindex="-1"></main>
+</div>
+
+<nav class="bar" aria-label="Secciones">
+  <a class="tab" href="#/" data-tab="inicio"></a>
+  <a class="tab" href="#/avisos" data-tab="avisos"></a>
+  <button type="button" class="mas" id="mas" aria-label="Registrar carga, servicio o gasto"></button>
+  <a class="tab" href="#/historial" data-tab="historial"></a>
+  <a class="tab" href="#/yo" data-tab="yo"></a>
+</nav>
+
+<dialog id="sheet" aria-label="Formulario"></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="js/garaje.js"></script>
+<script>if ("serviceWorker" in navigator) addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); });</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* Marca Garaje v1 (25 oct 2026). Familia Checa: mismo asfalto, hueso, letras y semáforo que Checa y Clientela. */
+@font-face { font-family: 'Bricolage Grotesque'; font-weight: 800; font-display: swap; src: url('fonts/bricolage-800.woff2') format('woff2'); }
+@font-face { font-family: 'DM Sans'; font-weight: 100 1000; font-display: swap; src: url('fonts/dmsans.woff2') format('woff2'); }
+@font-face { font-family: 'JetBrains Mono'; font-weight: 100 800; font-display: swap; src: url('fonts/jetbrains.woff2') format('woff2'); }
+:root {
+  --asfalto: #0C0C10;
+  --tablero: #16161C;
+  --humo: #3A3A45;
+  --hueso: #F4F4EF;
+  --gris-texto: #A3A3AD;
+  --cuerpo-logo: #222826;
+  --borde-logo: #3A423F;
+  /* El color habla del auto: al día, pronto, vencido */
+  --al-dia: #22C55E;
+  --pronto: #FACC15;
+  --vencido: #EF4444;
+  --texto-sobre-al-dia: #04210F;
+  --texto-sobre-pronto: #2B2200;
+  --texto-sobre-vencido: #1F0000;
+  --fuente-titulos: 'Bricolage Grotesque', 'Arial Black', sans-serif;
+  --fuente-texto: 'DM Sans', Arial, sans-serif;
+  --fuente-datos: 'JetBrains Mono', 'Courier New', monospace;
+  --radio-tarjeta: 28px;
+  --radio-chica: 20px;
+  --toque-min: 48px;
+  --curva: cubic-bezier(0.2, 0.8, 0.2, 1);
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Garaje · Tu auto, en orden",
+  "short_name": "Garaje",
+  "description": "Lleva el control de tu auto: combustible, servicios, gastos y avisos.",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0C0C10",
+  "theme_color": "#0C0C10",
+  "categories": ["utilities", "productivity", "finance"],
+  "icons": [
+    { "src": "marca/png/icono-app-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "marca/png/icono-app-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "marca/png/icono-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "marca/icono-app.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

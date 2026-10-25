@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Garaje">
+  <rect width="512" height="512" rx="112" fill="#222826"/>
+  <rect x="6" y="6" width="500" height="500" rx="106" fill="none" stroke="#3A423F" stroke-width="12"/>
+  <g fill="none" stroke="#F4F4EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 400V224l160-120 160 120v176"/><path d="M176 400V308h160v92"/><path d="M176 354h160"/>
+  </g>
+  <circle cx="396" cy="116" r="54" fill="#22C55E" stroke="#222826" stroke-width="14"/>
+  <path d="m372 118 18 18 32-38" fill="none" stroke="#04210F" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
