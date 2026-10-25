@@ -14,6 +14,9 @@ PWA para que **cualquier dueño de vehículo** lleve el control de su auto: comb
 - Voz: de tú, directa, cercana («Te aviso antes de que se te pase»). Sin tecnicismos.
 - Probar: `python3 -m http.server 8768` en la raíz y Playwright (Chromium en `/opt/pw-browsers/chromium`) a 390 px; sembrar `localStorage.garaje` y `reload()`.
 
+## Flujo de trabajo
+- El usuario autorizó (25-oct-2026) que, **después de cada cambio**, se abra el PR y se haga merge a `main` sin preguntar. Si el PR anterior ya está fusionado, la rama se reinicia desde `main`.
+
 ## Modelo (`localStorage.garaje`)
 `{ app:'garaje', vehicle:{name, odo}, entries:[…], reminders:[…] }`
 - `entries`: `{id, type: combustible|servicio|gasto, date 'YYYY-MM-DD', amount, title?, odo?, liters?, full?, note?, createdAt}`.
