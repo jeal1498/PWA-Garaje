@@ -145,3 +145,58 @@ dialog::backdrop { background: rgba(0, 0, 0, .65); }
 .firma i { display: flex; gap: 4px; } .firma i b { width: 6px; height: 6px; border-radius: 99px; display: block; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* ---------- Densidad compacta (mismas alturas que Finanzas) ---------- */
+.top { min-height: 36px; margin-top: calc(6px + env(safe-area-inset-top)); }
+.top h1 { font-size: 22px; }
+body { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
+.card { padding: 14px 16px; margin-top: 10px; }
+.big { font-size: 38px; margin-top: 2px; }
+.split { margin-top: 10px; height: 8px; }
+.legend { margin-top: 8px; }
+.tiles { gap: 8px; margin-top: 8px; }
+.tile { min-height: 78px; padding: 10px 12px; }
+.tile .v { font-size: 20px; margin-top: 4px; }
+.h2 { margin-top: 14px; }
+.h2 h2 { font-size: 18px; }
+.h2 a, .h2 button { min-height: 36px; }
+.lista { margin-top: 8px; }
+.fila { min-height: 48px; padding: 6px 14px; gap: 12px; }
+.aviso { padding: 10px 14px; }
+.aviso + .aviso { margin-top: 8px; }
+.aviso .det { margin-top: 4px; }
+.barra { margin-top: 8px; }
+.chips { margin-top: 10px; }
+.chip { min-height: 32px; padding: 0 14px; font-size: 13px; }
+.mes { margin-top: 12px; }
+.vacio { padding: 20px 18px; margin-top: 10px; }
+.btn { min-height: 44px; font-size: 15px; }
+.btn.soft { min-height: 44px; }
+.bar { height: calc(56px + env(safe-area-inset-bottom)); padding-top: 4px; }
+.tab { min-height: 44px; gap: 2px; }
+.mas { width: 52px; height: 52px; margin-top: -24px; }
+.mas .ic { width: 24px; height: 24px; }
+.toast { bottom: calc(68px + env(safe-area-inset-bottom)); }
+.sheet { padding: 8px 16px calc(14px + env(safe-area-inset-bottom)); }
+.sheet-h { min-height: 40px; }
+.sheet-h h2 { font-size: 20px; }
+.seg { margin-top: 8px; }
+.seg button { min-height: 36px; }
+.monto { margin-top: 12px; }
+.monto input { font-size: 52px; }
+.campos { gap: 8px; margin-top: 10px; }
+.campo { display: flex; align-items: center; gap: 10px; min-height: 38px; padding: 0 12px; border-radius: 16px; background: rgb(244 244 239 / .08); box-shadow: inset 0 0 0 1px rgb(244 244 239 / .35); }
+.campo span { flex: none; letter-spacing: .04em; font-size: 10px; }
+.campo input { flex: 1; min-width: 0; margin-top: 0; min-height: 36px; font-size: 16px; }
+.campo input[type=text], .campo input[type=date] { font-size: 15px; }
+.interruptor { margin-top: 8px; padding: 8px 12px; border-radius: 16px; background: rgb(244 244 239 / .08); box-shadow: inset 0 0 0 1px rgb(244 244 239 / .35); }
+.interruptor input { width: 44px; height: 26px; }
+.interruptor input::after { width: 20px; height: 20px; }
+.interruptor input:checked::after { transform: translateX(18px); }
+.nota { margin-top: 8px; font-size: 13.5px; min-height: 0; }
+.sugerencias { margin-top: 8px; }
+.acciones { margin-top: 10px; gap: 8px; }
+.error { margin-top: 6px; min-height: 0; }
+.pie { margin-top: 18px; }
+.campo { gap: 8px; padding: 0 10px; }
+.campo span { letter-spacing: 0; font-size: 9.5px; }

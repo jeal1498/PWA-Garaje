@@ -14,6 +14,9 @@ PWA para que **cualquier dueño de vehículo** lleve el control de su auto: comb
 - Voz: de tú, directa, cercana («Te aviso antes de que se te pase»). Sin tecnicismos.
 - Probar: `python3 -m http.server 8768` en la raíz y Playwright (Chromium en `/opt/pw-browsers/chromium`) a 390 px; sembrar `localStorage.garaje` y `reload()`.
 
+## Densidad compacta
+Bloque final de `css/garaje.css`, mismas alturas que Finanzas y Clientela: campos de 38 px con fondo y borde hueso tenue (etiqueta a la izquierda), botones de 44 px, barra inferior de 56 px (+ de 52), tarjetas y mosaicos de 78 px, filas de 48 px. No volver a alturas de 52–56 px.
+
 ## Flujo de trabajo
 - El usuario autorizó (25-oct-2026) que, **después de cada cambio**, se abra el PR y se haga merge a `main` sin preguntar. Si el PR anterior ya está fusionado, la rama se reinicia desde `main`.
 
