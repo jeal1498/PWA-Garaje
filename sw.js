@@ -1,5 +1,5 @@
 // Service worker de Garaje: funciona sin internet. Sube CACHE en cada cambio o el teléfono no se actualiza.
-const CACHE = 'garaje-v2';
+const CACHE = 'garaje-v3';
 const ASSETS = [
   './',
   'index.html',
